@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		920568481A3C15B10026293F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 920568471A3C15B10026293F /* main.m */; };
+		9205684B1A3C15B10026293F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9205684A1A3C15B10026293F /* AppDelegate.m */; };
+		9205684E1A3C15B10026293F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9205684D1A3C15B10026293F /* ViewController.m */; };
+		920568511A3C15B10026293F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9205684F1A3C15B10026293F /* Main.storyboard */; };
+		920568531A3C15B10026293F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 920568521A3C15B10026293F /* Images.xcassets */; };
+		920568561A3C15B10026293F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 920568541A3C15B10026293F /* LaunchScreen.xib */; };
+		920568621A3C15B10026293F /* AltimetrikTaskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 920568611A3C15B10026293F /* AltimetrikTaskTests.m */; };
+		9205686D1A3C423D0026293F /* NSString+Validation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9205686C1A3C423D0026293F /* NSString+Validation.m */; };
+		920568731A3C50D40026293F /* DetailListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 920568721A3C50D40026293F /* DetailListTableViewController.m */; };
+		920568781A3C5FBF0026293F /* LoadDetailImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 920568771A3C5FBF0026293F /* LoadDetailImageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9205685C1A3C15B10026293F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9205683A1A3C15B10026293F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 920568411A3C15B10026293F;
+			remoteInfo = AltimetrikTask;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		920568421A3C15B10026293F /* AltimetrikTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AltimetrikTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		920568461A3C15B10026293F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		920568471A3C15B10026293F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		920568491A3C15B10026293F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9205684A1A3C15B10026293F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9205684C1A3C15B10026293F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9205684D1A3C15B10026293F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		920568501A3C15B10026293F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		920568521A3C15B10026293F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		920568551A3C15B10026293F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		9205685B1A3C15B10026293F /* AltimetrikTaskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AltimetrikTaskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		920568601A3C15B10026293F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		920568611A3C15B10026293F /* AltimetrikTaskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AltimetrikTaskTests.m; sourceTree = "<group>"; };
+		9205686B1A3C423D0026293F /* NSString+Validation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Validation.h"; sourceTree = "<group>"; };
+		9205686C1A3C423D0026293F /* NSString+Validation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Validation.m"; sourceTree = "<group>"; };
+		920568711A3C50D40026293F /* DetailListTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailListTableViewController.h; sourceTree = "<group>"; };
+		920568721A3C50D40026293F /* DetailListTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailListTableViewController.m; sourceTree = "<group>"; };
+		920568761A3C5FBF0026293F /* LoadDetailImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoadDetailImageViewController.h; sourceTree = "<group>"; };
+		920568771A3C5FBF0026293F /* LoadDetailImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadDetailImageViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9205683F1A3C15B10026293F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920568581A3C15B10026293F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		920568391A3C15B10026293F = {
+			isa = PBXGroup;
+			children = (
+				920568441A3C15B10026293F /* AltimetrikTask */,
+				9205685E1A3C15B10026293F /* AltimetrikTaskTests */,
+				920568431A3C15B10026293F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		920568431A3C15B10026293F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				920568421A3C15B10026293F /* AltimetrikTask.app */,
+				9205685B1A3C15B10026293F /* AltimetrikTaskTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		920568441A3C15B10026293F /* AltimetrikTask */ = {
+			isa = PBXGroup;
+			children = (
+				924689C41A3D54BD00F014E8 /* Controller */,
+				924689C31A3D54A100F014E8 /* Category */,
+				924689C21A3D549100F014E8 /* Window */,
+				920568491A3C15B10026293F /* AppDelegate.h */,
+				9205684A1A3C15B10026293F /* AppDelegate.m */,
+				920568521A3C15B10026293F /* Images.xcassets */,
+				920568451A3C15B10026293F /* Supporting Files */,
+			);
+			path = AltimetrikTask;
+			sourceTree = "<group>";
+		};
+		920568451A3C15B10026293F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				920568461A3C15B10026293F /* Info.plist */,
+				920568471A3C15B10026293F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9205685E1A3C15B10026293F /* AltimetrikTaskTests */ = {
+			isa = PBXGroup;
+			children = (
+				920568611A3C15B10026293F /* AltimetrikTaskTests.m */,
+				9205685F1A3C15B10026293F /* Supporting Files */,
+			);
+			path = AltimetrikTaskTests;
+			sourceTree = "<group>";
+		};
+		9205685F1A3C15B10026293F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				920568601A3C15B10026293F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		924689C21A3D549100F014E8 /* Window */ = {
+			isa = PBXGroup;
+			children = (
+				9205684F1A3C15B10026293F /* Main.storyboard */,
+				920568541A3C15B10026293F /* LaunchScreen.xib */,
+			);
+			name = Window;
+			sourceTree = "<group>";
+		};
+		924689C31A3D54A100F014E8 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				9205686B1A3C423D0026293F /* NSString+Validation.h */,
+				9205686C1A3C423D0026293F /* NSString+Validation.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		924689C41A3D54BD00F014E8 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9205684C1A3C15B10026293F /* ViewController.h */,
+				9205684D1A3C15B10026293F /* ViewController.m */,
+				920568711A3C50D40026293F /* DetailListTableViewController.h */,
+				920568721A3C50D40026293F /* DetailListTableViewController.m */,
+				920568761A3C5FBF0026293F /* LoadDetailImageViewController.h */,
+				920568771A3C5FBF0026293F /* LoadDetailImageViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		920568411A3C15B10026293F /* AltimetrikTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 920568651A3C15B10026293F /* Build configuration list for PBXNativeTarget "AltimetrikTask" */;
+			buildPhases = (
+				9205683E1A3C15B10026293F /* Sources */,
+				9205683F1A3C15B10026293F /* Frameworks */,
+				920568401A3C15B10026293F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AltimetrikTask;
+			productName = AltimetrikTask;
+			productReference = 920568421A3C15B10026293F /* AltimetrikTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9205685A1A3C15B10026293F /* AltimetrikTaskTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 920568681A3C15B10026293F /* Build configuration list for PBXNativeTarget "AltimetrikTaskTests" */;
+			buildPhases = (
+				920568571A3C15B10026293F /* Sources */,
+				920568581A3C15B10026293F /* Frameworks */,
+				920568591A3C15B10026293F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9205685D1A3C15B10026293F /* PBXTargetDependency */,
+			);
+			name = AltimetrikTaskTests;
+			productName = AltimetrikTaskTests;
+			productReference = 9205685B1A3C15B10026293F /* AltimetrikTaskTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9205683A1A3C15B10026293F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "ANKUR SHIVANI";
+				TargetAttributes = {
+					920568411A3C15B10026293F = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					9205685A1A3C15B10026293F = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 920568411A3C15B10026293F;
+					};
+				};
+			};
+			buildConfigurationList = 9205683D1A3C15B10026293F /* Build configuration list for PBXProject "AltimetrikTask" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 920568391A3C15B10026293F;
+			productRefGroup = 920568431A3C15B10026293F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				920568411A3C15B10026293F /* AltimetrikTask */,
+				9205685A1A3C15B10026293F /* AltimetrikTaskTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		920568401A3C15B10026293F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920568511A3C15B10026293F /* Main.storyboard in Resources */,
+				920568561A3C15B10026293F /* LaunchScreen.xib in Resources */,
+				920568531A3C15B10026293F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920568591A3C15B10026293F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9205683E1A3C15B10026293F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920568731A3C50D40026293F /* DetailListTableViewController.m in Sources */,
+				9205684E1A3C15B10026293F /* ViewController.m in Sources */,
+				9205684B1A3C15B10026293F /* AppDelegate.m in Sources */,
+				9205686D1A3C423D0026293F /* NSString+Validation.m in Sources */,
+				920568481A3C15B10026293F /* main.m in Sources */,
+				920568781A3C5FBF0026293F /* LoadDetailImageViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		920568571A3C15B10026293F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				920568621A3C15B10026293F /* AltimetrikTaskTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9205685D1A3C15B10026293F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 920568411A3C15B10026293F /* AltimetrikTask */;
+			targetProxy = 9205685C1A3C15B10026293F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9205684F1A3C15B10026293F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				920568501A3C15B10026293F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		920568541A3C15B10026293F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				920568551A3C15B10026293F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		920568631A3C15B10026293F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		920568641A3C15B10026293F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		920568661A3C15B10026293F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AltimetrikTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		920568671A3C15B10026293F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = AltimetrikTask/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		920568691A3C15B10026293F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AltimetrikTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AltimetrikTask.app/AltimetrikTask";
+			};
+			name = Debug;
+		};
+		9205686A1A3C15B10026293F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = AltimetrikTaskTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AltimetrikTask.app/AltimetrikTask";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9205683D1A3C15B10026293F /* Build configuration list for PBXProject "AltimetrikTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920568631A3C15B10026293F /* Debug */,
+				920568641A3C15B10026293F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		920568651A3C15B10026293F /* Build configuration list for PBXNativeTarget "AltimetrikTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920568661A3C15B10026293F /* Debug */,
+				920568671A3C15B10026293F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		920568681A3C15B10026293F /* Build configuration list for PBXNativeTarget "AltimetrikTaskTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920568691A3C15B10026293F /* Debug */,
+				9205686A1A3C15B10026293F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9205683A1A3C15B10026293F /* Project object */;
+}
